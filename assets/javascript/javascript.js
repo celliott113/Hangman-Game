@@ -1,3 +1,5 @@
+//Website visual functions
+
 window.onload = rotate;
 
 var theAd = 0;
@@ -12,3 +14,5 @@ function rotate() {
 
     setTimeout(rotate, 3 * 1000);
 }
+
+//Website game functions
