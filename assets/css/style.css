@@ -1,0 +1,11 @@
+.img-circle {
+    border-radius: 50%;
+}
+
+div#maincontent {
+    outline: none;
+}
+
+img {
+    max-width: 75%
+}
