@@ -6,6 +6,20 @@ div#maincontent {
     outline: none;
 }
 
+
+/*
 img {
     max-width: 75%
+}
+*/
+
+@font-face {
+    font-family: 'horror';
+    src: url('horror_fonts.ttf');
+}
+
+.horrorFont {
+    font-family: 'horror', sans-serif;
+    color: #ff0000;
+    font-size: 1000%;
 }
