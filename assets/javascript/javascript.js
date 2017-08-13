@@ -61,14 +61,19 @@ document.onkeyup = function(event) {
 
     //A variable to tell the game which key was pressed
     var playerChoice = event.key;
-    playerChoice = word.toLowerCase();
-    document.getElementById("playerChoice").innerHTML = playerChoice;
+    playerChoice = word.toLowerCase(); //converts user choice to lower cse letters
+    document.getElementById("playerLetter").innerHTML = playerChoice
 
-    //A FOR loop that will determine if playerChoice matches a letter from the selected word  
+    //loop to check the user selection against all letters  
     for (i = 0; i < wordlength; i++) {
+        //compares the letter to the user guess
         if (word.charAt(i) == playerChoice) {
+
+            //changes status of goodguess to true
             correctLetter = true;
-            wordletters[i] = correctLetter;
+
+            //code to replace the blankletter with user guess  
+            wordletters[i] = playerChoice;
         }
     }
 

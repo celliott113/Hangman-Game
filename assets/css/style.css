@@ -21,7 +21,13 @@ img {
 .horrorFont {
     font-family: 'horror', sans-serif;
     color: #ff0000;
-    font-size: 1000%;
+    font-size: 900%;
+}
+
+.horrorFont2 {
+    font-family: 'horror', sans-serif;
+    color: #ff0000;
+    font-size: 400%
 }
 
 body {
@@ -30,4 +36,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.card {
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+.card-header,
+.card-footer {
+    opacity: 1
 }
