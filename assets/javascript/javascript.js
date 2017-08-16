@@ -61,7 +61,7 @@ document.onkeyup = function(event) {
 
     //A variable to tell the game which key was pressed
     var playerChoice = event.key;
-    playerChoice = word.toLowerCase(); //converts user choice to lower cse letters
+    playerChoice = playerChoice.toLowerCase(); //converts user choice to lowercase letters
     document.getElementById("playerLetter").innerHTML = playerChoice
 
     //loop to check the user selection against all letters  
